@@ -1,0 +1,91 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+# Usually these files are written by a python script from a template
+# before distilling into a bundle
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.toml
+.cache
+.pytest_cache/
+.coverage
+.coverage.*
+.nosexy
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.run/
+
+# Jupyter Notebook cache
+.ipynb_checkpoints
+
+# pipenv
+#   According to pypa/pipenv#118, it is NOT recommended to ignore Pipfile.lock.
+#   If your project is a Python package, ignore it. If it is an application, track it.
+#Pipfile.lock
+
+# poetry
+#   Similar to Pipfile.lock, ignore or track based on your project type.
+#poetry.lock
+
+# pdm
+#   Similar to Pipfile.lock, ignore or track based on your project type.
+#pdm.lock
+.pdm-plugins/
+
+# venv / Virtual Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Environment variables and secrets (CRITICAL FOR SECURITY)
+.env
+.env.*
+.secrets
+secrets.*
+*.pem
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
