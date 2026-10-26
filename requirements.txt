@@ -1,1 +1,11 @@
+# ------------------------------------------------------------------------------
+# Python Portfolio Suite - Requirements
+# ------------------------------------------------------------------------------
 
+# Core Development & Code Quality Tools
+black==24.10.0          # Opinionated code formatter to maintain clean, uniform styling
+flake8==7.1.1           # Linter for enforcing PEP 8 compliance and finding syntax bugs
+isort==5.13.2           # Utility to sort and group standard library and local imports
+
+# Testing Framework
+pytest==8.3.3           # Robust unit testing framework to validate algorithms and class behaviors
