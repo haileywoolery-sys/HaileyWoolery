@@ -31,26 +31,20 @@ A consolidated portfolio showcasing a diverse suite of six native Python applica
 - **Description:** A lightweight, robust system tool built to securely read, parse, and write key-value properties.
 - **Key Features:** Safely updates local system variables and checks values against automated validation rules to prevent runtime crashes.
 
----
-
-## 💻 Skills Demonstrated
-* **Core Paradigms:** Object-Oriented Programming (OOP), Recursive Algorithms, Inheritance.
-* **Data Structures:** Custom Hash Tables, Linked Lists, Dictionaries, Multi-Dimensional Arrays.
-* **System Programming:** Local File Operations, Data Serialization, Environment Variable management.
+### 7. ⚔️ Terminal-Based Roguelike Dungeon Crawler
+- **Description:** A turnkey, grid-based dungeon crawler engineered with procedural layout generation, real-time event loops, and dynamic entity tracking.
+- **Key Features:** Features custom procedural room and tunnel generation, automated turn-based enemy AI, entity collision handling, and progression gating (including key-holder minions, anti-softlock backup key spawns, and epic boss dragon encounters every 10 levels).
 
 ---
 
-## ⚙️ Installation & How to Run
+## 🏗️ Core Competencies Demonstrated
 
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com
-   cd YOUR_REPO_NAME
-   ```
+*   **Procedural Generation & Grid Mathematics:** Architected multi-dimensional array structures (`list` matrices) to dynamically construct fair, un-softlockable layouts, procedural room coordinates, and connecting tunnel paths.
+*   **State Machine Design & Event Handling:** Engineered robust game loops and system tools that seamlessly coordinate real-time inputs, turn-based enemy AI actions, system updates, and conditional level-progression gates.
+*   **Object-Oriented Programming (OOP) & Encapsulation:** Applied advanced OOP paradigms including class inheritance hierarchies, modular blueprints, and property decorators (`@property`, setters) to enforce strict data hiding and protect critical state variables.
+*   **Low-Level Data Structures & Memory Management:** Implemented fundamental computer science concepts from scratch, including custom hashing engines utilizing separate chaining (linked list concepts) for $O(1)$ average-case dictionary efficiency and recursion for clean call-stack allocation.
+*   **Defensive Programming & Exception Handling:** Developed comprehensive sanity checks, explicit index/coordinate boundary validations, and graceful fallback exceptions to completely isolate corrupt user inputs, handle missing file paths, and eliminate runtime execution softlocks.
+*   **Algorithmic Complexity & Optimization:** Evaluated critical performance and memory trade-offs across all projects, balancing $O(N)$ linear dataset operations against high-efficiency $O(\log N)$ or $O(1)$ lookup and state management mechanics.
 
-2. **Run any specific program module directly:**
-   ```bash
-   python src/budget_app.py
-   # or
-   python src/hash_table.py
-   ```
+---
+
